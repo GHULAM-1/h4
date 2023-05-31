@@ -5,9 +5,6 @@ const port = 9000;
 app.get("/", (req, res) => {
 	res.send("Hello, World!");
 });
-app.get("/server", (req, res) => {
-	res.send("server route");
-});
 
 app.listen(port, () => {
 	console.log(`Server running on port ${port}`);
